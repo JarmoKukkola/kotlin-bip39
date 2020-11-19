@@ -264,7 +264,7 @@ object Mnemonics {
      */
     enum class WordCount(val count: Int) {
 
-        COUNT_12(12), COUNT_15(15), COUNT_18(18), COUNT_21(21), COUNT_24(24);
+        COUNT_6(6), COUNT_9(9), COUNT_12(12), COUNT_15(15), COUNT_18(18), COUNT_21(21), COUNT_24(24);
 
         /**
          * The bit length of the entropy necessary to create a mnemonic with the given word count.
